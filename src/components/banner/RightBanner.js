@@ -5,7 +5,7 @@ const RightBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
       <img
-        className="w-[300px] h-[400px] xl:w-[500px] xl:h-[680px] z-10"
+        className="w-[300px] h-[467px] xl:w-[450px] xl:h-[700px] z-10"
         src={template}
         alt=""
       />
