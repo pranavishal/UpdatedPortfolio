@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div
       id="contacts"
-      className="flex justify-evenly items-center bg-[#212428] text-[#c4cfde] w-full py-4"
+      className="flex justify-evenly items-center bg-[#212428] text-[#c4cfde] w-full py-4 flex-col lgl:flex-row"
     >
       <p>Pranav Vishal</p>
       <p>Ontario, Canada</p>

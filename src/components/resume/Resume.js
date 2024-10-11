@@ -13,7 +13,7 @@ const Resume = () => {
         <ResumeTitle title="2+ Years of Experience" des="My Resume" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-2">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 ">
           <li
             onClick={() => setEducationData(true) & setExperienceData(false)}
             className={`${

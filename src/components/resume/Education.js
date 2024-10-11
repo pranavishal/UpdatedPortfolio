@@ -7,8 +7,9 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.8 } }}
-      className="w-full flex gap-20"
+      className="w-full flex flex-col lgl:flex-row lgl:gap-20"
     >
+      {/* part 1 */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2021 - 2026</p>
@@ -25,6 +26,7 @@ const Education = () => {
           />
         </div>
       </div>
+      {/* part 2 */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2021 - 2026</p>
