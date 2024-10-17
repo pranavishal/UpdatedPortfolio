@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectCard from "./ProjectCard";
-import { blueprint, p1, p2, p3, p4, p5, p6 } from "../../assets/index";
+import { blueprint, p2, p3, p4, p5, p6 } from "../../assets/index";
 
 const Projects = () => {
   return (
@@ -23,9 +23,9 @@ const Projects = () => {
         <ProjectCard
           title="UW Blueprint Website"
           des="I lead the development of UW Blueprint's website as a technical, as well as implementing their internal recruitment tool."
-          src={p5}
+          src={blueprint}
           lnkG={"https://github.com/uwblueprint/website-bp"}
-          lnkD={"https://uwblueprint.org/"} 
+          lnkD={"https://uwblueprint.org/"}
         />
         <ProjectCard
           title="All That Lies in the North"
