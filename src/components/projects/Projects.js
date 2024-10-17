@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectCard from "./ProjectCard";
-import { p1, p2, p3, p4, p5, p6 } from "../../assets/index";
+import { blueprint, p1, p2, p3, p4, p5, p6 } from "../../assets/index";
 
 const Projects = () => {
   return (
@@ -21,11 +21,11 @@ const Projects = () => {
           lnkD={"https://www.youtube.com/watch?v=QFYwbL9k1wo"}
         />
         <ProjectCard
-          title="Motor Mayhem"
-          des="Second mobile game I developed with Unity and C#. Motor Mayhem ranked as a top 100 iOS racing game as of September 2022. I was able to improve the user experience by collecting feedback from a sample of test users in an agile manner, and utilized Plastic SCM to implement version control."
-          src={p2}
-          lnkG={"https://github.com/pranavishal/Motor-Mayhem"}
-          lnkD={"https://www.youtube.com/watch?v=2C005k-kujs"}
+          title="UW Blueprint Website"
+          des="I lead the development of UW Blueprint's website as a technical, as well as implementing their internal recruitment tool."
+          src={blueprint}
+          lnkG={"https://github.com/uwblueprint/website-bp"}
+          lnkD={"https://uwblueprint.org/"}
         />
         <ProjectCard
           title="All That Lies in the North"
@@ -42,11 +42,11 @@ const Projects = () => {
           lnkD={"https://www.youtube.com/watch?v=2zQslzGy0Os&t=2s"}
         />
         <ProjectCard
-          title="Rock Stars"
-          des="Mobile game developed with C# and Unity for the Google Play Store."
-          src={p1}
-          lnkG={"https://github.com/pranavishal/Rock-Stars"}
-          lnkD={"https://www.youtube.com/watch?v=78d6JHu41YU"}
+          title="Motor Mayhem"
+          des="Second mobile game I developed with Unity and C#. Motor Mayhem ranked as a top 100 iOS racing game as of September 2022. I was able to improve the user experience by collecting feedback from a sample of test users in an agile manner, and utilized Plastic SCM to implement version control."
+          src={p2}
+          lnkG={"https://github.com/pranavishal/Motor-Mayhem"}
+          lnkD={"https://www.youtube.com/watch?v=2C005k-kujs"}
         />
         <ProjectCard
           title="My Portfolio"
