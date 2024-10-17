@@ -23,13 +23,13 @@ const Projects = () => {
         <ProjectCard
           title="UW Blueprint Website"
           des="I lead the development of UW Blueprint's website as a technical, as well as implementing their internal recruitment tool."
-          src={blueprint}
+          src={p5}
           lnkG={"https://github.com/uwblueprint/website-bp"}
-          lnkD={"https://uwblueprint.org/"}
+          lnkD={"https://uwblueprint.org/"} 
         />
         <ProjectCard
           title="All That Lies in the North"
-          des=" Unity2D turn-based rpg, developed for the GameDevTV Game Jam. Implemented turn-based combat system similar to Pokemon, character stats, experience levels, inventory, quest and save system."
+          des="Unity2D turn-based rpg, developed for the GameDevTV Game Jam. Implemented turn-based combat system similar to Pokemon, character stats, experience levels, inventory, quest and save system."
           src={p3}
           lnkG={"https://github.com/pranavishal/All-That-Lies-in-the-North"}
           lnkD={"https://www.youtube.com/watch?v=EgBXkn-KGuw"}
