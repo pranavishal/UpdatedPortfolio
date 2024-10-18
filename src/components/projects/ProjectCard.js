@@ -2,7 +2,7 @@ import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
-const ProjectCard = ({ title, des, src, lnkG, lnkD }) => {
+const ProjectCard = ({ title, des, src, lnkG, lnkD, display }) => {
   return (
     <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-[#1a1d20] group hover:bg-gray-900 transition-colors duration-500">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
@@ -18,24 +18,27 @@ const ProjectCard = ({ title, des, src, lnkG, lnkD }) => {
             <h3 className="text-base uppercase text-designColor font-normal">
               {title}
             </h3>
-            <div className="flex gap-2">
-              <a
-                href={lnkG}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
-              >
-                <BsGithub />
-              </a>
-              <a
-                href={lnkD}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
-              >
-                <FaGlobe />
-              </a>
-            </div>
+            {display && (
+              <div className="flex gap-2">
+                <a
+                  href={lnkG}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
+                >
+                  <BsGithub />
+                </a>
+
+                <a
+                  href={lnkD}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
+                >
+                  <FaGlobe />
+                </a>
+              </div>
+            )}
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}

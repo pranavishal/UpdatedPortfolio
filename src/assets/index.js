@@ -6,8 +6,9 @@ import p3 from "./images/p3.png";
 import p4 from "./images/p4.png";
 import p5 from "./images/p5.png";
 import p6 from "./images/p6.png";
-import blueprint from "./images/blueprint.png"
-import ron from "./pdfs/Pranav_Vishal_UW_Resume_VF.pdf";
+import blueprint from "./images/blueprint.png";
+import ron from "./pdfs/Pranav_Vishal_UW_Resume_2024.pdf";
+import pythonx from "./images/pythonx.png";
 
 export {
   template,
@@ -20,6 +21,7 @@ export {
   p6,
   ron,
   blueprint,
+  pythonx,
   //   testimonialOne,
   //   testimonialTwo,
   //   quote,
