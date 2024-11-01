@@ -19,9 +19,7 @@ const EducationCard = ({ title, subTitle, result, des }) => {
             </p>
           </div>
           <div>
-            <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
-              {result}
-            </p>
+
           </div>
         </div>
         <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
