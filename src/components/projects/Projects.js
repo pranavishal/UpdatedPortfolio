@@ -1,15 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectCard from "./ProjectCard";
-import {
-  blueprint,
-  p2,
-  p3,
-  p4,
-  p5,
-  pythonx,
-  venmito,
-} from "../../assets/index";
+import { blueprint, p3, p4, p5, pythonx, venmito } from "../../assets/index";
 
 const Projects = () => {
   return (
