@@ -24,7 +24,7 @@ const Projects = () => {
 
         <ProjectCard
           title="UW Blueprint"
-          des="I lead the development of UW Blueprint's website as a technical lead, as well as implementing their internal recruitment tool."
+          des="I lead the development of UW Blueprint's website as a technical lead, as well as implementing their internal recruitment tool. Designed delegation algorithms to automate the application review, and interview processes."
           src={blueprint}
           lnkG={"https://github.com/uwblueprint/website-bp"}
           lnkD={"https://uwblueprint.org/"}
