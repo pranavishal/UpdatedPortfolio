@@ -31,17 +31,18 @@ const Experience = () => {
             des="May 2025 - August 2025"
           />
           <ResumeCard
+            title="Machine Learning Engineer"
+            subTitle="WAT.ai"
+            result="Waterloo, ON, CAN"
+            des="January 2025 - April 2025"
+          />
+          <ResumeCard
             title="Software Engineering Intern"
             subTitle="Lincoln Electric"
             result="Cleveland, OH, US"
             des="September 2024 - December 2024"
           />
-          <ResumeCard
-            title="Machine Learning Engineer"
-            subTitle="WAT.ai"
-            result="Waterloo, ON, CAN"
-            des="September 2024 - December 2024"
-          />
+          
           <ResumeCard
             title="Software Engineering Intern"
             subTitle="Partho Technologies"
