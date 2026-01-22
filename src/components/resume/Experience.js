@@ -42,13 +42,6 @@ const Experience = () => {
             result="Cleveland, OH, US"
             des="September 2024 - December 2024"
           />
-          
-          <ResumeCard
-            title="Software Engineering Intern"
-            subTitle="Partho Technologies"
-            result="Mississauga, ON, CAN"
-            des="May 2024 - August 2024"
-          />
           <ResumeCard
             title="Technical Lead"
             subTitle="UW Blueprint"
