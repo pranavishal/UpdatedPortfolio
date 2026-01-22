@@ -7,7 +7,7 @@ import p4 from "./images/p4.png";
 import p5 from "./images/p5.png";
 import p6 from "./images/p6.png";
 import blueprint from "./images/blueprint.png";
-import ron from "./pdfs/Pranav_Vishal_CV (1).pdf";
+import ron from "./pdfs/Pranav_Vishal_CV.pdf";
 import pythonx from "./images/pythonx.png";
 import venmito from "./images/Venmito.png";
 

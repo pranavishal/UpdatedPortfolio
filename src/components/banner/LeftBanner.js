@@ -5,11 +5,10 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "Full Stack Developer.",
-      "Machine Learning Engineer.",
-      "Graphics Programmer.",
-      "Game Developer.",
-      "Student.",
+      "Full Stack Systems.",
+      "Machine Learning Pipelines.",
+      "Data Engineering Pipelines.",
+      "Distributed Systems.",
     ],
     loop: true,
     typeSpeed: 20,
@@ -21,11 +20,11 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">Welcome to my portfolio!</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm{" "}
+        Hi, I'm{" "}
           <span className="text-designColor capitalize">Pranav Vishal</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          I've worked with <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -33,13 +32,10 @@ const LeftBanner = () => {
           />
         </h2>
         <p>
-          I'm a 4th year Computer Science student at UWaterloo. Through multiple
-          internships in Canada and the US, I've developed interest and
-          experience in: distributed systems, machine learning, full-stack
-          development, and real-time data processing. I've built APIs and event
-          processing systems, implemented ML models for customer behavior
-          prediction, and currently focus on optimizing large-scale data
-          systems.
+        I’m a senior Computer Science student at the University of Waterloo with 
+        internship experience in both Canada and the U.S. I’m particularly interested 
+        in building scalable systems, with hands-on experience across distributed systems, 
+        ML pipelines, full-stack applications, and real-time data processing.
         </p>
       </div>
       <div className="flex flex-col lgl:flex-row gap-6 lgl:ap-0 justify-between">

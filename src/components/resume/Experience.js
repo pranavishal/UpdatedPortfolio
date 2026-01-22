@@ -19,13 +19,13 @@ const Experience = () => {
       <div className="w-full flex justify-center">
         <div className="mt-6 lgl:mt-14 w-full max-w-4xl border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 px-4">
           <ResumeCard
-            title="Incoming Software Engineering Intern"
+            title="Software Engineering Intern"
             subTitle="Xtillion"
             result="San Juan, PR, US"
             des="September 2025 - December 2025"
           />
           <ResumeCard
-            title="Incoming Software Engineering Intern"
+            title="Software Engineering Intern"
             subTitle="ether.fi"
             result="Toronto, ON, CAN"
             des="May 2025 - August 2025"
