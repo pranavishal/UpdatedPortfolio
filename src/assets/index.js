@@ -10,6 +10,7 @@ import blueprint from "./images/blueprint.png";
 import ron from "./pdfs/Pranav_Vishal_CV.pdf";
 import pythonx from "./images/pythonx.png";
 import venmito from "./images/Venmito.png";
+import urbanMarble from "./images/UrbanMarble.jpeg";
 
 export {
   template,
@@ -24,6 +25,7 @@ export {
   blueprint,
   pythonx,
   venmito,
+  urbanMarble,
   //   testimonialOne,
   //   testimonialTwo,
   //   quote,

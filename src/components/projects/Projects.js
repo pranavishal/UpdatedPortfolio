@@ -1,7 +1,15 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectCard from "./ProjectCard";
-import { blueprint, p3, p4, p5, pythonx, venmito } from "../../assets/index";
+import {
+  blueprint,
+  p3,
+  p4,
+  p5,
+  pythonx,
+  venmito,
+  urbanMarble,
+} from "../../assets/index";
 
 const Projects = () => {
   return (
@@ -14,6 +22,15 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectCard
+          title="Urban Marble"
+          des="An AI-powered geospatial platform that turns city exploration into a cinematic experience. Search for where you want to go, and it builds a personalized plan on a 3D Cesium.js map. Click any building to get its history, architectural style, and a generated documentary with AI narration, archival imagery, and voiceover — all in under 10 seconds. Built with Next.js, React, TypeScript, and OpenAI APIs. First place winner at DDC x Ignition Hacks."
+          src={urbanMarble}
+          lnkG={"https://github.com/pranavishal/DD-x-Ignition"}
+          lnkD={"https://devpost.com/software/urban-marble"}
+          display={true}
+          featured={true}
+        />
+        <ProjectCard
           title="Venmito Analysis"
           des="Venmito is a full-stack data engineering project designed to clean, process, and analyze data from various formats into a structured SQLite database. The project includes a Flask backend for data processing and API handling, and a Vite/React frontend for user interaction and visualization."
           src={venmito}
@@ -21,7 +38,6 @@ const Projects = () => {
           display={false}
           half={true}
         />
-
         <ProjectCard
           title="UW Blueprint"
           des="I lead the development of UW Blueprint's website as a technical lead, as well as implementing their internal recruitment tool. Designed delegation algorithms to automate the application review, and interview processes."
@@ -54,7 +70,6 @@ const Projects = () => {
           lnkD={"https://www.youtube.com/watch?v=2zQslzGy0Os&t=2s"}
           display={true}
         />
-
         <ProjectCard
           title="All That Lies in the North"
           des="Unity2D turn-based rpg, developed for the GameDevTV Game Jam. Implemented turn-based combat system similar to Pokemon, character stats, experience levels, inventory, quest and save system."
